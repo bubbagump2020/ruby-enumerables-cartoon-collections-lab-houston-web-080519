@@ -1,3 +1,5 @@
+# using the .each_with_index to print out a 
+# a numbered list of dwarves
 def roll_call_dwarves(dwarves)
   (dwarves).each_with_index do |dwarf_name, index|
     index = index + 1
@@ -9,6 +11,7 @@ end
 def summon_captain_planet(elements)
   p elements.map {|summon_elements| "#{summon_elements}!".capitalize}
 end
+
 
 def long_planeteer_calls# code an argument here
   # Your code here
