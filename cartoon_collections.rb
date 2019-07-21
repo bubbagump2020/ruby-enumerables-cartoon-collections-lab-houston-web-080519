@@ -5,6 +5,7 @@ def roll_call_dwarves(dwarves)
   end
 end
 
+# using .map or .collect to summon captain planet
 def summon_captain_planet(elements)
   p elements.map {|summon_elements| "#{summon_elements}!".capitalize}
 end
