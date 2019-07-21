@@ -18,6 +18,19 @@ def long_planeteer_calls# code an argument here
 end
 
 def find_the_cheese(cheese)
+	cheese_types = %w[cheddar gouda camembert]
+	list_discarded_food = []
+	my_cheese = ""
+	unwanted_food = ""
+	counter = 0
 
-  cheese_types = ["cheddar", "gouda", "camembert"]
+	while counter < cheese.length do
+		if cheese.include?(cheese_types)
+			unwanted_food = cheese.shift
+		else
+			my_cheese = cheese.shift
+		end
+		counter = counter + 1
+	end
+	p my_cheese
 end
