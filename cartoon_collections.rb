@@ -18,6 +18,7 @@ def long_planeteer_calls# code an argument here
 end
 
 def find_the_cheese(cheese)
+  
 	cheese_types = %w[cheddar gouda camembert]
 	list_discarded_food = []
 	my_cheese = ""
